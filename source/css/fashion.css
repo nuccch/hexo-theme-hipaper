@@ -260,7 +260,7 @@ object {
 	}
 .site-title {
 	margin: 0;
-	font-size: 48px;
+	font-size: 29px;
 	font-family: Oswald, "Microsoft Yahei", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	line-height: 1em;
@@ -411,7 +411,8 @@ object {
 
 #main-navigation {
 	border: solid #333;
-	border-width: 1px 0 3px;
+	border-width: 0px 0 3px;
+    padding: 5px 0 0 0;
 	}
 #main-navigation li a {
 	padding: 0 20px;
@@ -551,7 +552,7 @@ object {
 /* LAYOUT
 ----------------------------------------------- */
 .container {
-	width: 980px;
+	width: 1182px;
 	padding: 0;
 	}
 .content-area {
@@ -980,7 +981,8 @@ body.search .page .entry-footer {
 	list-style: none;
 	}
 .widget ul ul {
-	margin: 0 0 0 10px;
+	/*margin: 0 0 0 10px;*/
+	margin: 0 0 0 25px;
 	}
 .widget li {
 	margin: 0 0 10px;

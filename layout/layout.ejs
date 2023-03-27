@@ -16,7 +16,7 @@
           <section id="main"><%- body %></section>
           <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
         <% } else {%>
-          <section id="main" style="float:none;"><%- body %></section>
+          <section id="main" style="width: 100%;"><%- body %></section>
         <% } %>
       </div>
 
