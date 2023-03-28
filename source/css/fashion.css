@@ -552,7 +552,8 @@ object {
 /* LAYOUT
 ----------------------------------------------- */
 .container {
-	width: 1182px;
+	/* width: 980px; */
+	width: 1231px;
 	padding: 0;
 	}
 .content-area {
